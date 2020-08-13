@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		7537081F24E480FD00C1B2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537081E24E480FD00C1B2A2 /* AppDelegate.m */; };
 		7537082224E480FD00C1B2A2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537082124E480FD00C1B2A2 /* SceneDelegate.m */; };
-		7537082524E480FD00C1B2A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537082424E480FD00C1B2A2 /* ViewController.m */; };
 		7537082824E480FD00C1B2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7537082624E480FD00C1B2A2 /* Main.storyboard */; };
 		7537082A24E480FF00C1B2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7537082924E480FF00C1B2A2 /* Assets.xcassets */; };
 		7537082D24E480FF00C1B2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7537082B24E480FF00C1B2A2 /* LaunchScreen.storyboard */; };
 		7537083024E480FF00C1B2A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537082F24E480FF00C1B2A2 /* main.m */; };
+		7537083D24E4875200C1B2A2 /* CBSCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537083C24E4875200C1B2A2 /* CBSCityAirQuality.m */; };
+		7537084024E48A3E00C1B2A2 /* CBSWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537083F24E48A3E00C1B2A2 /* CBSWeather.m */; };
+		7537084324E48D1A00C1B2A2 /* CBSPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537084224E48D1A00C1B2A2 /* CBSPollution.m */; };
+		7537084624E4947C00C1B2A2 /* CBSAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7537084524E4947C00C1B2A2 /* CBSAirQualityController.m */; };
+		7537084924E4AB4700C1B2A2 /* CBSCountriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537084824E4AB4700C1B2A2 /* CBSCountriesListViewController.swift */; };
+		7537084B24E4AC2A00C1B2A2 /* CBSStatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537084A24E4AC2A00C1B2A2 /* CBSStatesListViewController.swift */; };
+		7537084E24E4AF1500C1B2A2 /* CBSCityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537084D24E4AF1500C1B2A2 /* CBSCityListViewController.swift */; };
+		7537085024E4B82F00C1B2A2 /* CBSCityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7537084F24E4B82F00C1B2A2 /* CBSCityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +29,24 @@
 		7537081E24E480FD00C1B2A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7537082024E480FD00C1B2A2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		7537082124E480FD00C1B2A2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7537082324E480FD00C1B2A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7537082424E480FD00C1B2A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7537082724E480FD00C1B2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7537082924E480FF00C1B2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7537082C24E480FF00C1B2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7537082E24E480FF00C1B2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7537082F24E480FF00C1B2A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7537083B24E4875200C1B2A2 /* CBSCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSCityAirQuality.h; sourceTree = "<group>"; };
+		7537083C24E4875200C1B2A2 /* CBSCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSCityAirQuality.m; sourceTree = "<group>"; };
+		7537083E24E48A3E00C1B2A2 /* CBSWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSWeather.h; sourceTree = "<group>"; };
+		7537083F24E48A3E00C1B2A2 /* CBSWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSWeather.m; sourceTree = "<group>"; };
+		7537084124E48D1A00C1B2A2 /* CBSPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSPollution.h; sourceTree = "<group>"; };
+		7537084224E48D1A00C1B2A2 /* CBSPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSPollution.m; sourceTree = "<group>"; };
+		7537084424E4947C00C1B2A2 /* CBSAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBSAirQualityController.h; sourceTree = "<group>"; };
+		7537084524E4947C00C1B2A2 /* CBSAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBSAirQualityController.m; sourceTree = "<group>"; };
+		7537084724E4AB4600C1B2A2 /* AirQualityC35-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQualityC35-Bridging-Header.h"; sourceTree = "<group>"; };
+		7537084824E4AB4700C1B2A2 /* CBSCountriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSCountriesListViewController.swift; sourceTree = "<group>"; };
+		7537084A24E4AC2A00C1B2A2 /* CBSStatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSStatesListViewController.swift; sourceTree = "<group>"; };
+		7537084D24E4AF1500C1B2A2 /* CBSCityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSCityListViewController.swift; sourceTree = "<group>"; };
+		7537084F24E4B82F00C1B2A2 /* CBSCityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBSCityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +79,70 @@
 		7537081C24E480FD00C1B2A2 /* AirQualityC35 */ = {
 			isa = PBXGroup;
 			children = (
+				7537083824E481E800C1B2A2 /* Controllers */,
+				7537083724E481E400C1B2A2 /* Model */,
+				7537083624E481CA00C1B2A2 /* Resources */,
+				7537082624E480FD00C1B2A2 /* Main.storyboard */,
+			);
+			path = AirQualityC35;
+			sourceTree = "<group>";
+		};
+		7537083624E481CA00C1B2A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7537081D24E480FD00C1B2A2 /* AppDelegate.h */,
 				7537081E24E480FD00C1B2A2 /* AppDelegate.m */,
 				7537082024E480FD00C1B2A2 /* SceneDelegate.h */,
 				7537082124E480FD00C1B2A2 /* SceneDelegate.m */,
-				7537082324E480FD00C1B2A2 /* ViewController.h */,
-				7537082424E480FD00C1B2A2 /* ViewController.m */,
-				7537082624E480FD00C1B2A2 /* Main.storyboard */,
 				7537082924E480FF00C1B2A2 /* Assets.xcassets */,
 				7537082B24E480FF00C1B2A2 /* LaunchScreen.storyboard */,
 				7537082E24E480FF00C1B2A2 /* Info.plist */,
 				7537082F24E480FF00C1B2A2 /* main.m */,
 			);
-			path = AirQualityC35;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7537083724E481E400C1B2A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7537083B24E4875200C1B2A2 /* CBSCityAirQuality.h */,
+				7537083C24E4875200C1B2A2 /* CBSCityAirQuality.m */,
+				7537083E24E48A3E00C1B2A2 /* CBSWeather.h */,
+				7537083F24E48A3E00C1B2A2 /* CBSWeather.m */,
+				7537084124E48D1A00C1B2A2 /* CBSPollution.h */,
+				7537084224E48D1A00C1B2A2 /* CBSPollution.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7537083824E481E800C1B2A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7537083A24E481F500C1B2A2 /* ViewControllers */,
+				7537083924E481F000C1B2A2 /* ModelController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7537083924E481F000C1B2A2 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				7537084424E4947C00C1B2A2 /* CBSAirQualityController.h */,
+				7537084524E4947C00C1B2A2 /* CBSAirQualityController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		7537083A24E481F500C1B2A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7537084824E4AB4700C1B2A2 /* CBSCountriesListViewController.swift */,
+				7537084724E4AB4600C1B2A2 /* AirQualityC35-Bridging-Header.h */,
+				7537084A24E4AC2A00C1B2A2 /* CBSStatesListViewController.swift */,
+				7537084D24E4AF1500C1B2A2 /* CBSCityListViewController.swift */,
+				7537084F24E4B82F00C1B2A2 /* CBSCityDetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,11 +171,13 @@
 		7537081224E480FD00C1B2A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CBS;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Colton Swapp";
 				TargetAttributes = {
 					7537081924E480FD00C1B2A2 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -146,10 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7537082524E480FD00C1B2A2 /* ViewController.m in Sources */,
+				7537084B24E4AC2A00C1B2A2 /* CBSStatesListViewController.swift in Sources */,
+				7537084024E48A3E00C1B2A2 /* CBSWeather.m in Sources */,
+				7537083D24E4875200C1B2A2 /* CBSCityAirQuality.m in Sources */,
 				7537081F24E480FD00C1B2A2 /* AppDelegate.m in Sources */,
 				7537083024E480FF00C1B2A2 /* main.m in Sources */,
 				7537082224E480FD00C1B2A2 /* SceneDelegate.m in Sources */,
+				7537084E24E4AF1500C1B2A2 /* CBSCityListViewController.swift in Sources */,
+				7537084624E4947C00C1B2A2 /* CBSAirQualityController.m in Sources */,
+				7537084924E4AB4700C1B2A2 /* CBSCountriesListViewController.swift in Sources */,
+				7537084324E48D1A00C1B2A2 /* CBSPollution.m in Sources */,
+				7537085024E4B82F00C1B2A2 /* CBSCityDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,15 +367,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X89M6X46Y8;
-				INFOPLIST_FILE = AirQualityC35/Info.plist;
+				INFOPLIST_FILE = AirQualityC35/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.AirQualityC35;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQualityC35/Controllers/ViewControllers/AirQualityC35-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,15 +388,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X89M6X46Y8;
-				INFOPLIST_FILE = AirQualityC35/Info.plist;
+				INFOPLIST_FILE = AirQualityC35/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwappDev.AirQualityC35;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQualityC35/Controllers/ViewControllers/AirQualityC35-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
